@@ -4,8 +4,8 @@
  * Localhost module for rah_bitly.
  *
  * @package rah_bitly
- * @author Jukka Svahn
- * @link https://github.com/gocom/rah_bitly
+ * @author  Jukka Svahn
+ * @link    https://github.com/gocom/rah_bitly
  */
 
 class rah_bitly_localhost
