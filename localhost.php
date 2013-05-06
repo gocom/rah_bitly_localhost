@@ -21,5 +21,3 @@
 		rah_bitly::get()->permlink = 'http://example.com/#'.rah_bitly::get()->permlink;
 		rah_bitly::get()->prev_permlink = 'http://example.com/#'.rah_bitly::get()->prev_permlink;
 	}
-
-?>
