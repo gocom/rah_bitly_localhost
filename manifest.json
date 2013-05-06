@@ -1,0 +1,11 @@
+{
+	"name"        : "rah_bitly_localhost",
+	"description" : "Localhost module for rah_bitly",
+	"version"     : "0.1.0",
+	"type"        : 4,
+	"author"      : "Jukka Svahn",
+	"author_uri"  : "http://rahforum.biz",
+	"order"       : 5,
+	"flags"       : 0,
+	"help"        : {"file" : ["./README.textile"]}
+}
