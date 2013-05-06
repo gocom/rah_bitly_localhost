@@ -9,13 +9,26 @@
  * @link https://github.com/gocom/rah_bitly
  */
 
-	register_callback('rah_bitly__localhost', 'rah_bitly.update');
+class rah_bitly_localhost
+{
+	/**
+	 * Constructor.
+	 */
 
-/**
- * Prepends "http://example.com/#" to the localhost links
- */
+	public function __construct()
+	{
+		register_callback(array($this, 'update'), 'rah_bitly.update');
+	}
 
-	function rah_bitly__localhost() {
+	/**
+	 * Prepends "http://example.com/#" to the localhost links.
+	 */
+
+	public function update()
+	{
 		rah_bitly::get()->permlink = 'http://example.com/#'.rah_bitly::get()->permlink;
 		rah_bitly::get()->prev_permlink = 'http://example.com/#'.rah_bitly::get()->prev_permlink;
 	}
+}
+
+new rah_bitly_localhost();
