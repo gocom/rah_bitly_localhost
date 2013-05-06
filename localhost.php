@@ -9,9 +9,7 @@
  * @link https://github.com/gocom/rah_bitly
  */
 
-	if(@txpinterface == 'admin') {
-		register_callback('rah_bitly__localhost', 'rah_bitly.update');
-	}
+	register_callback('rah_bitly__localhost', 'rah_bitly.update');
 
 /**
  * Prepends "http://example.com/#" to the localhost links
