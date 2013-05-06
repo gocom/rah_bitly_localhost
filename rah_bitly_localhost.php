@@ -5,7 +5,7 @@
  *
  * @package rah_bitly
  * @author  Jukka Svahn
- * @link    https://github.com/gocom/rah_bitly
+ * @link    https://github.com/gocom/rah_bitly_localhost
  */
 
 class rah_bitly_localhost
