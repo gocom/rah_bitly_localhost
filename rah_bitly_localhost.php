@@ -1,11 +1,10 @@
 <?php
 
 /**
- * Localhost module for rah_bitly
+ * Localhost module for rah_bitly.
  *
  * @package rah_bitly
  * @author Jukka Svahn
- * @version 0.1
  * @link https://github.com/gocom/rah_bitly
  */
 
