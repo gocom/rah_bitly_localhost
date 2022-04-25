@@ -1,8 +1,8 @@
-h1. Localhost module for rah_bitly
+h1. rah_bitly_localhost
 
 "Download":https://github.com/gocom/rah_bitly_localhost/releases | "Packagist":https://packagist.org/packages/rah/rah_bitly_localhost | "Issues":https://github.com/gocom/rah_bitly_localhost/issues
 
-This is a plugin for "rah_bitly":https://github.com/gocom/rah_bitly meant for testing environment purposes. It adds @http://example.com/#@ at the beginning of all published short links. This makes a permanent link pointing to a local address publishable.
+This is a localhost module for "rah_bitly":https://github.com/gocom/rah_bitly, a plugin for "Textpattern CMS":https://textpattern.com. It adds @https://example.com/#@ at the beginning of all published Bitly short links. This makes a permanent link pointing to a local address publishable.
 
 h2. Installing
 
