@@ -41,7 +41,7 @@ class Rah_Bitly_Localhost
      * @param string $step
      * @param array $data
      */
-    public function register($event, $step, &$data): void
+    public function update($event, $step, &$data): void
     {
         $data['permlink'] = 'http://example.com/#' . $data['permlink'];
     }
