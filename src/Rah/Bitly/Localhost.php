@@ -43,6 +43,6 @@ class Rah_Bitly_Localhost
      */
     public function update($event, $step, &$data): void
     {
-        $data['permlink'] = 'http://example.com/#' . $data['permlink'];
+        $data['permlink'] = 'https://example.com/#' . $data['permlink'];
     }
 }
