@@ -18,7 +18,7 @@
     },
     "require": {
         "textpattern/installer": "*",
-        "rah/rah_bitly": "dev-master@dev"
+        "rah/rah_bitly": "^0.5.1"
     },
     "require-dev": {
         "rah/mtxpc": "^0.9.0",
