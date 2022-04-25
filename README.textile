@@ -1,14 +1,16 @@
 h1. Localhost module for rah_bitly
 
-p. "Packagist":https://packagist.org/packages/rah/rah_bitly_localhost | "rah_bitly":http://github.com/gocom/rah_bitly
+"Download":https://github.com/gocom/rah_bitly_localhost/releases | "Packagist":https://packagist.org/packages/rah/rah_bitly_localhost | "Issues":https://github.com/gocom/rah_bitly_localhost/issues
 
-p. This is a plugin for rah_bitly meant for testing environment purposes. It adds @http://example.com/#@ at the beginning of all published short links. This makes a permanent link pointing to a local address publishable.
+This is a plugin for "rah_bitly":https://github.com/gocom/rah_bitly meant for testing environment purposes. It adds @http://example.com/#@ at the beginning of all published short links. This makes a permanent link pointing to a local address publishable.
 
 h2. Installing
 
-p. Using "Composer":http://getcomposer.org:
+Using "Composer":https://getcomposer.org:
 
-bc. $ composer.phar require rah/rah_bitly_localhost
+bc. $ composer require rah/rah_bitly_localhost
+
+Or "download":https://github.com/gocom/rah_bitly_localhost/releases an installer package.
 
 h2. Changelog
 
